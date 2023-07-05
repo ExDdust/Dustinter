@@ -1,0 +1,1353 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 4100px;
+  background-color: #202833;
+  overflow-x: hidden;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+  text-decoration: none;
+}
+
+/* Шапка сайта */
+.shapka-fon {
+  position: relative;
+  width: 1920px;
+  height: 85px;
+  background: #0B0C10;
+  box-shadow: 0px 4px 13px 2px #66FCF1;
+  margin: 0 auto;
+}
+
+.shapka-fon > img {
+  position: relative;
+  width: 60px;
+  height: 56px;
+  left: 63px;
+  top: 14px;
+
+  box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.accent {
+  font-family: 'Balsamiq Sans';
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 90.5%;
+  color: #66FCF1;
+}
+
+.accent2 {
+  font-family: 'Balsamiq Sans';
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 90.5%;
+  color: #FFFFFF;
+}
+
+.header_katalog {
+  position: relative;
+  width: 1920px;
+  height: 85px;
+}
+
+.accent3 {
+  position: absolute;
+  width: 141px;
+  height: 41px;
+  left: 458px;
+  top: 22px;
+  background: #46A29F;
+  box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 15px;
+}
+
+.accent3 > a {
+  position: absolute;
+  font-family: 'Balsamiq Sans';
+  font-size: 23px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  top: 7px;
+  left: 19%;
+  text-decoration: none;
+}
+
+.d7 {
+  position: relative;
+  top: -87px;
+  left: 655px;
+
+}
+.d7:after {clear:both;}
+
+.d7 form {
+  top: 100px;
+  width: auto;
+  float: none;
+  margin-right: 30px;
+}
+.d7 input {
+  width: 250px;
+  height: 38px;
+  padding-left: 15px;
+  border-radius: 15px;
+  border: 2px solid rgba(102, 252, 241, 1);
+  background: rgba(196, 196, 196, 0.08);
+  outline: none;
+  transition: 0.5s cubic-bezier(0, 0.65, 0.4, 1.07);
+}
+.d7 input:focus {
+  width: 700px;
+  background: rgba(220, 220, 220, 1);
+}
+
+.ava {
+position: absolute;
+width: 43px;
+height: 43px;
+left: 1569px;
+top: 21px;
+
+background: url(../Praktika/Icons/blasthack_cat.png);
+background-size: cover;
+border: 1px solid #FFFFFF;
+border-radius: 25px;
+}
+/* .accent4 {
+  position: absolute;
+  width: 122px;
+  height: 48px;
+  left: 1467px;
+  top: 16px;
+
+  background: #46A29F;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.accent4 > a {
+  font-family: 'Balsamiq Sans';
+  font-size: 23px;
+  font-weight: 700;
+  position: relative;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  top: 10px;
+  left: 22%;
+} */
+
+.accent5 {
+  position: absolute;
+  width: 172px;
+  height: 41px;
+  left: 1671px;
+  top: 21px;
+
+  background: #46A29F;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.accent5 > a {
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  position: relative;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  left: 22px;
+  top: -13px;
+}
+
+.accent5 > img {
+  position: relative;
+  left: 17px;
+  top: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hh {
+  position: relative;
+
+  height: 50px;
+  top: -40px;
+  left: 128px;
+  text-decoration: none;
+}
+
+.accent p {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  top: -40px;
+  left: 128px;
+  text-decoration: none;
+}
+/* Шапка сайта */
+
+ul.breadcrumb  {
+  position: relative;
+  left: 120px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 93.4%;
+  color: #FFFFFF;
+  padding: 5px 10px;
+  list-style: none;
+  background-color: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 93.4%;
+  color: #FFFFFF;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 93.4%;
+  color: #FFFFFF;
+}
+
+main {
+  position: relative;
+  width: 0px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.hidenbl {
+  position: relative;
+  width: 443px;
+  height: 800px;
+  left: 0px;
+  top: 110px;
+
+  background: #202833;
+}
+
+.game {
+  position: relative;
+  width: 292px;
+  height: 362px;
+  left: 136px;
+  top: 10px;
+
+  background: url(../Praktika/Icons/FH52.png);
+  background-position: center;
+  border: 2px solid #66FCF1;
+  box-sizing: border-box;
+  box-shadow: 1px 4px 12px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.button {
+    position: relative;
+    width: 200px;
+    height: 42px;
+    top: 368px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: #46A29F;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.game input {
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 93.4%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.shotinf {
+  position: relative;
+  top: 390px;
+  text-align: left;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.Kupit {
+  position: absolute;
+  width: 403px;
+  height: 56px;
+  left: 485px;
+  top: 10px;
+  text-align: left;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 31px;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sost {
+  position: absolute;
+  width: 97px;
+  height: 15px;
+  left: 515px;
+  top: 100px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 93.4%;
+  color: #FFFFFF;
+}
+
+.Kup {
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #46A29F;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.buy input {
+  position: absolute;
+  width: 150px;
+  height: 42px;
+  left: 485px;
+  top: 140px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 93.4%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Coastaf {
+  position: absolute;
+  width: 115px;
+  left: 680px;
+  top: 155px;
+
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 93.4%;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Coastbef {
+  position: absolute;
+  width: 119px;
+  left: 820px;
+  top: 155px;
+
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 93.4%;
+  text-align: center;
+  text-decoration-line: line-through;
+  color: #707070;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.oval_skidka {
+  position: absolute;
+  width: 38px;
+  height: 16px;
+  left: 935px;
+  top: 140px;
+
+  background: #66FCF1;
+  border-radius: 4px;
+}
+
+.oval_skidka h1 {
+  position: absolute;
+  width: 24px;
+  left: 2px;
+  top: 3px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 93.4%;
+  color: #000000;
+}
+
+.lang {
+  position: absolute;
+  width: 250px;
+  height: 41px;
+  left: 485px;
+  top: 210px;
+  text-align: left;
+  line-height: 2px;
+  font-family: 'Balsamiq Sans';
+}
+
+.lang h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+.lang h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.Serv {
+  position: absolute;
+  width: 225px;
+  height: 41px;
+  left: 820px;
+  top: 210px;
+  text-align: left;
+  line-height: 2px;
+  font-family: 'Balsamiq Sans';
+}
+
+.Serv h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+.Serv h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+/* Слайдер */
+.container {
+  position: absolute;
+  width: 1000px;
+  height: 562px;
+  left: 485px;
+  top: 375px;
+}
+
+.slider{
+  max-width: 2000px;
+  max-height: 1000px;
+}
+
+.slider__wrapper {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.slider__item {
+  width: 800px;
+  height: 562px;
+  display: flex;
+}
+
+.slider__item:nth-child(2) {
+		background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  	background-image: url(https://store-images.s-microsoft.com/image/apps.12298.13734397844529069.cb22092f-c997-40f9-8554-70d6a55fabbf.ce47af40-8ba1-46f7-9e64-e63ef0e1ca0e?w=1399&h=787&q=90&format=jpg);
+}
+
+.slider__item:nth-child(3) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  	background-image: url(https://store-images.s-microsoft.com/image/apps.36774.13734397844529069.cb22092f-c997-40f9-8554-70d6a55fabbf.4c3515d1-c759-425a-a51a-c9070174146d?w=1399&h=787&q=90&format=jpg);
+}
+
+.slider__item:nth-child(4) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(https://store-images.s-microsoft.com/image/apps.54576.13734397844529069.cb22092f-c997-40f9-8554-70d6a55fabbf.90ea65fb-556b-43f0-b4bc-3c51f77a0397?w=1399&h=787&q=90&format=jpg);
+}
+
+.slider__item:nth-child(5) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(https://store-images.s-microsoft.com/image/apps.1845.13734397844529069.cb22092f-c997-40f9-8554-70d6a55fabbf.76ad9791-b5b8-44cb-83a1-060642abf4cf?w=1399&h=787&q=90&format=jpg);
+}
+
+.slider__item:nth-child(6) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(https://store-images.s-microsoft.com/image/apps.47660.13734397844529069.cb22092f-c997-40f9-8554-70d6a55fabbf.401d52d5-06bb-44e9-84e8-0836dcabde4e?w=1399&h=787&q=90&format=jpg);
+}
+
+.slider__item:nth-child(7) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(https://store-images.s-microsoft.com/image/apps.63181.13734397844529069.cb22092f-c997-40f9-8554-70d6a55fabbf.9efbd756-3392-4ce6-8332-87fc48b134a6?w=1399&h=787&q=90&format=jpg);
+}
+
+.slider__item:nth-child(8) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(https://store-images.s-microsoft.com/image/apps.13950.13734397844529069.cb22092f-c997-40f9-8554-70d6a55fabbf.74d74494-30b3-49ca-a83d-2431bbcbf5dc?w=1399&h=787&q=90&format=jpg);
+}
+
+.slider__item:nth-child(9) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(https://store-images.s-microsoft.com/image/apps.873.13734397844529069.cb22092f-c997-40f9-8554-70d6a55fabbf.659e603d-a2d5-41dc-9605-46be63510510?w=1399&h=787&q=90&format=jpg);
+}
+
+.slider__item:nth-child(10) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url(https://store-images.s-microsoft.com/image/apps.56219.13734397844529069.cb22092f-c997-40f9-8554-70d6a55fabbf.87e7b365-a10c-4e7f-ad15-d7d7556c53b6?w=1399&h=787&q=90&format=jpg);
+}
+/* Слайдер */
+
+/* О товаре */
+.accent6 {
+  position: relative;
+  width: 260px;
+  height: 22px;
+  left: 485px;
+  top: 300px;
+  line-height: 125%;
+  text-align: right;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.about {
+  position: relative;
+  width: 1000px;
+  height: 530px;
+
+  background: rgba(11, 12, 16, 0.76);
+  border-radius: 19px;
+  object-fit: cover;
+
+}
+
+.about h1{
+  position: relative;
+  width: 955px;
+  left: 20px;
+  right: 100px;
+  top: 30px;
+
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #FFFFFF;
+}
+/* О товаре */
+
+/* Системки */
+.accent7 {
+  position: relative;
+  width: 297px;
+  height: 33px;
+  left: 485px;
+  top: 890px;
+  line-height: 25px;
+  text-align: right;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.sist {
+  position: relative;
+  width: 1000px;
+  height: 420px;
+  line-height: 25px;
+  background: rgba(11, 12, 16, 0.76);
+  border-radius: 19px;
+  object-fit: cover;
+
+}
+
+.sist h1{
+  position: relative;
+  width: 955px;
+  left: 30px;
+  right: 100px;
+  top: 25px;
+
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  text-align: justify;
+  text-decoration-line: underline;
+
+  color: #FFFFFF;
+}
+
+.sist h2 {
+  position: relative;
+  width: 436px;
+  left: 30px;
+  top: 20px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.sist h3{
+  position: absolute;
+  width: 955px;
+  left: 530px;
+  right: 100px;
+  top: 25px;
+
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+
+  text-align: justify;
+  text-decoration-line: underline;
+
+  color: #FFFFFF;
+}
+
+.sist h4 {
+  position: absolute;
+  width: 436px;
+  left: 530px;
+  top: 40px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.palka {
+  position: absolute;
+  width: 373px;
+  height: 0px;
+  left: 320px;
+  top: 202px;
+
+  border: 1px solid #FFFFFF;
+  transform: rotate(90deg);
+}
+/* Системки */
+
+/* Отзывы */
+.accent8 {
+  position: relative;
+  width: 115px;
+  height: 33px;
+  left: 200px;
+  top: 1385px;
+  line-height: 125%;
+  text-align: right;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.Otzivi {
+  position: relative;
+  width: 1534px;
+  height: 1180px;
+  border: none;
+  background: rgba(11, 12, 16, 0.76);
+  border-radius: 19px;
+
+}
+
+textarea {outline:none;}
+
+.Otzivi textarea {
+  position: relative;
+  width: 1480px;
+  height: 138px;
+  top: 15px;
+  right: 30px;
+  resize: none;
+  background: #353535;
+  border: 1px solid #66FCF1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.Otzivi input {
+  position: absolute;
+  width: 138px;
+  height: 55px;
+  left: 24px;
+  top: 170px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  background: #46A29F;
+  border-radius: 12px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* рейтинг */
+.rating-area {
+  position: absolute;
+	overflow: hidden;
+	width: 200px;
+  top: 170px;
+  right: 30px;
+	margin: 0 auto;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	cursor: pointer;
+	font-size: 40px;
+	color: #C4C4C4;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: #F7BD28;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: #F7BD28;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: #F7BD28;
+}
+.rate-area > label:active {
+	position: relative;
+}
+/* рейтинг */
+
+.otziv1 {
+  position: relative;
+  width: 1480px;
+  height: 200px;
+  top: 100px;
+  left: 20px;
+}
+
+.otziv1 p {
+  position: relative;
+  left: 30px;
+  top: 5px;
+
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.otziv1 h1 {
+  position: relative;
+  left: 126px;
+  top: -6px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.otziv1 img {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  left: 30px;
+  top: 40px;
+}
+
+.otziv1 h2 {
+  position: relative;
+  width: 100px;
+  font-size: 15px;
+  height: 53px;
+  left: 70px;
+
+  color: #F7BD28;
+}
+
+
+.otziv1 h3 {
+  position: relative;
+  left: 110px;
+
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.otziv1 h4 {
+  position: relative;
+  width: 1360px;
+  left: 110px;
+  top: 15px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+
+.otziv2 {
+  position: relative;
+  width: 1480px;
+  height: 200px;
+  top: 100px;
+  left: 20px;
+}
+
+.otziv2 p {
+  position: relative;
+  left: 30px;
+  top: 5px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.otziv2 h1 {
+  position: relative;
+  left: 126px;
+  top: -6px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.otziv2 img {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  left: 30px;
+  top: 40px;
+}
+
+.otziv2 h2 {
+  position: relative;
+  width: 100px;
+  font-size: 15px;
+  height: 53px;
+  left: 70px;
+  color: #F7BD28;
+}
+
+.otziv2 h3 {
+  position: relative;
+  left: 110px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.otziv2 h4 {
+  position: relative;
+  width: 1360px;
+  left: 110px;
+  top: 15px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.otziv3 {
+  position: relative;
+  width: 1480px;
+  height: 200px;
+  top: 100px;
+  left: 20px;
+}
+
+.otziv3 p {
+  position: relative;
+  left: 30px;
+  top: 5px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.otziv3 h1 {
+  position: relative;
+  left: 126px;
+  top: -6px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.otziv3 img {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  left: 30px;
+  top: 40px;
+}
+
+.otziv3 h2 {
+  position: relative;
+  width: 100px;
+  font-size: 15px;
+  height: 53px;
+  left: 70px;
+  color: #F7BD28;
+}
+
+
+.otziv3 h3 {
+  position: relative;
+  left: 110px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.otziv3 h4 {
+  position: relative;
+  width: 1360px;
+  left: 110px;
+  top: 15px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.otziv4 {
+  position: relative;
+  width: 1480px;
+  height: 200px;
+  top: 100px;
+  left: 20px;
+}
+
+.otziv4 p {
+  position: relative;
+  left: 30px;
+  top: 5px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.otziv4 h1 {
+  position: relative;
+  left: 126px;
+  top: -6px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.otziv4 img {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  left: 30px;
+  top: 40px;
+}
+
+.otziv4 h2 {
+  position: relative;
+  width: 100px;
+  font-size: 15px;
+  height: 53px;
+  left: 70px;
+
+  color: #F7BD28;
+}
+
+.otziv4 h3 {
+  position: relative;
+  left: 110px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.otziv4 h4 {
+  position: relative;
+  width: 1360px;
+  left: 110px;
+  top: 15px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.more input {
+  position: absolute;
+  width: 171px;
+  height: 41px;
+  left: 655px;
+  top: 1085px;
+  text-align: center;
+  border: none;
+  background: #46A29F;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  font-family: 'Balsamiq Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Отзывы */
+
+/* Низ */
+.Niz {
+  position: absolute;
+  width: 1920px;
+  height: 0px;
+  left: 0px;
+  top: 3870px;
+  border: 1px solid #FFFFFF;
+}
+
+.logo_niz{
+  position: absolute;
+  width: 67px;
+  height: 61px;
+  left: 139px;
+  top: 70px;
+  background: url(../Praktika/Icons/Logo.svg);
+  /* box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.Types {
+  position: absolute;
+  width: 110px;
+  height: 27px;
+  left: 744px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 93.4%;
+  color: #FFFFFF;
+}
+
+.hh1 {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  top: 5px;
+  left: 77px;
+}
+
+.pipka {
+  position: absolute;
+  width: 253px;
+  height: 22px;
+  left: 390px;
+  top: 150px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 93.4%;
+  color: #FFFFFF;
+}
+
+.Navigation {
+  position: relative;
+  width: 110px;
+  height: 27px;
+  left: 747px;
+  top: 45px;
+}
+
+.Navigation a {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+
+.underline-one {
+	color: #00bfff; /* Цвет обычной ссылки */
+  position: relative;
+  cursor: pointer;
+  text-decoration: none; /* Убираем подчеркивание */
+}
+.underline-one:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: white; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.underline-one:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: #66FCF1; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.Navigation2 {
+  position: relative;
+  text-align: left;
+  width: 280px;
+  height: 27px;
+  left: 1024px;
+  top: 18px;
+}
+
+.Navigation2 a {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+
+.connect {
+  position: absolute;
+  width: 155px;
+  height: 25px;
+  left: 1709px;
+  top: 29px;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.VK {
+  position: absolute;
+  width: 46px;
+  height: 24px;
+  left: -5px;
+  top: 39px;
+
+  background: url(../Praktika/Icons/pngaaa.com-2080160.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Telegram {
+  position: absolute;
+  width: 35px;
+  height: 38px;
+  left: 60px;
+  top: 32px;
+
+  background: url(../Praktika/Icons/TG.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Discord {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 122px;
+  top: 32px;
+
+  background: url(../Praktika/Icons/DS.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
